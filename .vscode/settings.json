@@ -1,4 +1,6 @@
 {
     "dotnet.defaultSolution": "SampleApp/SampleApp.sln",
-    "editor.foldingImportsByDefault": true
+    "editor.foldingImportsByDefault": true,
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "workbench.commandPalette.preserveInput": true
 }
