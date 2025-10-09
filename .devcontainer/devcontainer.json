@@ -3,21 +3,37 @@
     "image": "mcr.microsoft.com/dotnet/sdk:9.0",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-        "ghcr.io/devcontainers/features/github-cli:1": {
-            "version": "2"
-        },
-        "ghcr.io/devcontainers/features/powershell:1": {
-            "version": "latest"
-        },
-        "ghcr.io/azure/azure-dev/azd:0": {
-            "version": "latest"
-        },
+        "ghcr.io/devcontainers/features/github-cli:1": {},
+        "ghcr.io/devcontainers/features/powershell:1": {},
+        "ghcr.io/azure/azure-dev/azd:0": {},
         "ghcr.io/devcontainers/features/common-utils:2": {},
-        "ghcr.io/devcontainers/features/dotnet:2": {
-            "version": "none",
-            "dotnetRuntimeVersions": "8.0",
-            "aspNetCoreRuntimeVersions": "8.0"
-        }
+        "ghcr.io/devcontainers/features/dotnet:2": {},
+        "ghcr.io/devcontainers/features/azure-cli:1": {},
+        "ghcr.io/devcontainers/features/node:1": {},
+        "ghcr.io/devcontainers/features/php:1": {},
+        "ghcr.io/customink/codespaces-features/docker-log-level:1": {},
+        "ghcr.io/stuartleeks/dev-container-features/azure-cli-persistence:0": {},
+        "ghcr.io/stuartleeks/dev-container-features/dev-tunnels:0": {},
+        "ghcr.io/frntn/devcontainers-features/postman:1": {},
+        "ghcr.io/wxw-matt/devcontainer-features/apt:0": {},
+        "ghcr.io/joedmck/devcontainer-features/cdktf:1": {},
+        "ghcr.io/codeman99/features/circleci-cli:1": {},
+        "ghcr.io/joshuanianji/devcontainer-features/gel-cli:1": {},
+        "ghcr.io/opencodeco/devcontainers/install-php-extensions:0": {},
+        "ghcr.io/bartventer/arch-devcontainer-features/azure-cli:1": {},
+        "ghcr.io/devcontainers-extra/features/angular-cli:2": {},
+        "ghcr.io/devcontainers-extra/features/chisel:1": {},
+        "ghcr.io/devcontainers-extra/features/circleci-cli:1": {},
+        "ghcr.io/devcontainers-extra/features/cloudflare-wrangler:1": {},
+        "ghcr.io/devcontainers-extra/features/cloudflared:1": {},
+        "ghcr.io/devcontainers-extra/features/composer:1": {},
+        "ghcr.io/devcontainers-extra/features/curl-apt-get:1": {},
+        "ghcr.io/devcontainers-extra/features/gh-cli:1": {},
+        "ghcr.io/devcontainers-extra/features/mongodb-atlas-cli-homebrew:1": {},
+        "ghcr.io/devcontainers-extra/features/npm-package:1": {},
+        "ghcr.io/devcontainers-extra/features/vscode-cli:1": {},
+        "ghcr.io/davzucky/devcontainers-features-wolfi/python:1": {},
+        "ghcr.io/thediveo/devcontainer-features/wal-wahl:0": {}
     },
     "customizations": {
         "vscode": {
@@ -25,7 +41,11 @@
                 "ms-vscode.vscode-node-azure-pack",
                 "GitHub.copilot",
                 "GitHub.vscode-github-actions",
-                "ms-dotnettools.csdevkit"
+                "ms-dotnettools.csdevkit",
+                "Abromeit.add-hint-link-to-manual",
+                "ryanwelcher.modern-wordpress-development-snippets",
+                "DEVSENSE.composer-php-vscode",
+                "ms-vscode.web-editors"
             ]
         }
     },
