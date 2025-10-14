@@ -6,6 +6,6 @@
 version: 
 updates:
   - package-ecosystem: "" # See documenation for possible values
-    directory: "/" # Location of package manifests
+    directory: "/" # Location of package manifest
     schedule:
       interval: "weekly"
